@@ -1,0 +1,14 @@
+button.encima {
+    border-radius: 5px;
+}
+
+button.encima::before {
+    content: "Pasa por encima";
+}
+
+button.encima:hover{
+    color: white;
+    background-color: green;
+    border-color: green;
+}
+

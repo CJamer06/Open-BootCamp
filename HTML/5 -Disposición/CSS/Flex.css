@@ -1,0 +1,35 @@
+.text{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex{
+    flex-direction: column;
+    display: flex;
+    background-color: yellow;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center; /* <- Nos permite tomar el ancho del contenido */
+    /* flex-wrap: wrap; */
+}
+
+.contenido-1{
+    background-color: red;
+    /* height: 200px; */
+    /* width: 100px; */
+    border: 1px solid black;
+}
+
+.contenido-2{
+    background-color: green;
+    /* height: 200px; */
+    /* width: 100px; */
+    border: 1px solid black;
+}
+
+.contenido-3{
+    background-color: blue;
+    /* height: 200px; */
+    /* width: 100px; */
+    border: 1px solid black;
+}

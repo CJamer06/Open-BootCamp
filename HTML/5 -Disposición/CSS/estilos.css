@@ -1,0 +1,22 @@
+.div-1, .div-2{
+    background-color: cornflowerblue;
+    /* display: block; -> Por defecto div esta en display block*/
+}
+
+#span-1{
+    background-color: aqua;
+    float: right;
+    /* display: inline; -> Por defecto span esta en display inline */
+}
+
+#span-2{
+    background-color: aqua;
+    float: left;
+}
+
+
+.imagen{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; 
+    position: fixed;
+}
+
+.heder {
+    font-size: 30pt;
+    font-weight:bolder;
+    
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

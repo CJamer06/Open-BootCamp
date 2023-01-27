@@ -1,0 +1,20 @@
+/*
+Al nivel de importancia, le llamaremos especificidad y nos indica que un Id es mas importante que un class y este ultimo mas importante que una simple asignación, por lo tanto nos queda que: */
+
+#h1-id { /* (1,0,0)*/
+    color:green;
+}
+
+.h1-class{ /* (0,1,0)*/
+    color: pink;
+}
+
+h1 { /* (0,0,1)*/
+    color:blue;
+} */
+
+p {
+    color: red;
+}
+
+/*Si se llegan a declarar 2 id o 2 class la especificidad de estos aumenta en función de cada uno, sin embargo si un estilo se define en linea de comando tendrá mayor rango, pero aun no es todo por que también podemos contar con: la etiqueta "!important" que es relativa*/

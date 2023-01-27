@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidades CSS</title>
+    <link rel="stylesheet" href="estilos.css"> <!--  Esto es importar estilos propios o internos  -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous"> <!-- Estos son estilos ya creados, solo debemos usar las etiquetas id o class correspondiente. -->
+
+    <style>
+        html{
+            padding: 15pt;
+        }
+
+        p {
+            color: blue;
+        }
+    </style> <!-- Esta es otra forma de crear estilos, siguiendo la estructura vista de CSS pero dentro del HTML-->
+
+
+</head>
+<body>
+    <p>Hola</p><!-- Usando un estilo definido dentro del propio HTML, pero no es style line -->
+    <p>Usando un css propio</p>
+    <button>Soy un botón</button>
+    <br>
+    <p>Usando un CSS externo</p>
+    <button class="pure-button pure-button-active">Soy otro Botón</button><!-- Botón con la segunda Forma -->
+    <br>
+    <p>Usando line style</p>
+    <button style="border-radius: 2pt; border-color: blue"">Soy un botón</button> <!-- Botón con la tercera forma -->
+
+</body>
+</html>

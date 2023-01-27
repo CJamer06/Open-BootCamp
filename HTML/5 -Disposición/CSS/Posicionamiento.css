@@ -1,0 +1,42 @@
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.relative{ /* Posiciona en función al static */
+    position:relative;
+    left: 88px;
+    margin-left: 10px;
+}
+
+.fixed { /* Posicionamiento fijo a la pantalla. */
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fff;
+    z-index: 10;
+
+}
+
+/* Posicionamiento absoluto */
+.absolute{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    margin: 5px;
+    background-color: #fff;
+}
+
+.sticky{
+    background-color: orange;
+    position: sticky;
+    top: 0px; /* <-  Con esto le indicamos en donde debe fijarse*/
+}
+
+.contenedor{
+    width: auto;
+    height: 35px;
+    background-color: blue;
+    border-radius: 10px;
+}

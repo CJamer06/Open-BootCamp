@@ -1,0 +1,38 @@
+h1 {
+    color : red;
+}
+
+/* Estoy probando colores y fuentes */
+
+p {
+    color: blue;
+    font-size: 20pt;
+}
+
+/* Para los tipo id, usamos la siguiente estructura para declararles: */
+p#Parrafo {
+    color: green;
+    font-size: 15pt;
+}
+
+p#Parrafo2{
+    color: #0074bf;
+    font-size: 30pt;
+}
+
+/* Para los tipo "class", usamos el siguiente diseño: */
+
+.Titulo{
+    color: brown;
+    text-transform: capitalize;
+}
+
+/* 
+Los "*" en CSS son los selectores universales, y toman a todos aquellos que no cuenten con un id o una class. 
+
+Pero varios elementos pueden estar designados a un mismo diseño:
+
+. NombreID  .NombreID2  .NombreID3 {
+    Diseños...
+}
+*/

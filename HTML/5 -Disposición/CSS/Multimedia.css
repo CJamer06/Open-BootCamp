@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.imagen-principal{
+    width: 100vw;
+    opacity: 0.3;
+}
+
+.imagen-principal:hover{ /* Nos permite hacer una imagen opaca cuando el puntero no esta sobre ella */
+    cursor: pointer; /* Cambia el cursor*/
+    opacity: 1;
+}
