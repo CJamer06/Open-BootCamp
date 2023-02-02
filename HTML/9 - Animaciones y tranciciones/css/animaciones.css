@@ -1,0 +1,62 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.hijo{
+    width: 50%;
+    height: 50%;
+    color:white;
+    background-color: red;
+    
+    /*
+    Con esto agregamos animaciones
+    transition: 
+    /* Tipo de animación / transform 
+    /* Tiempo de duración /1s 
+    /* Tipo de frenado / ease-in 
+    /* retraso / 0.5s;
+    */
+}
+
+.padre:hover .hijo{
+    /* transform: translateX(100%); Se usa para cambiar la posición en el eje X 
+    background-color: blueviolet;
+    color:white; */
+    animation: traslacion 1s ease-in-out infinite forwards alternate; /*Con esto indicamos de manera mas precisa lo que se hace con "transition"*/
+}
+
+@keyframes traslacion {
+    0% {
+        color:white;
+        background-color: red;
+        transform: translateX(0%) translateY(0%);
+    }
+
+    25% {
+        color: black;
+        background-color: yellow;
+        transform: translateX(100%) translateY(0%);
+    }
+
+    50% {
+        color: black;
+        background-color: darkorange;
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75% {
+        color: white;
+        background-color: green;
+        transform: translateX(0%) translateY(100%);
+    }
+
+    100% {
+        color:white;
+        background-color: red;
+        transform: translateX(0%) translateY(0%);
+    }
+
+    
+}
